@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Básica con Barra de Navegación</title>
+    <style>
+        
+        .navbar {
+            background-color: #333;
+            padding: 15px;
+            width: 100%;
+        }
+
+        
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        
+        .navbar li {
+            margin: 0 15px;
+        }
+
+        
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 19px;
+            padding: 16px 8px;
+        }
+
+        
+        .navbar a:hover {
+            background-color: grey;
+        }
+
+        
+        section {
+            padding: 10px;
+            margin: 20px 0;
+            border: 1px solid rgb(212, 168, 254);
+            background-color: rgb(255, 225, 255);
+        }
+
+        
+        section h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        
+        section p {
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    
+    <section>
+        <h2>Inicio</h2>
+        <p>Te damos la bienvenida a nuestro sitio web, donde podrás conocer más sobre los servicios que ofrecemos y descubrir las formas más sencillas de ponerte en contacto con nosotros.</p>
+    </section>
+
+    
+    <section>
+        <h2>Servicios</h2>
+        <p>Ponemos a tu disposición una amplia gama de servicios, que incluyen desarrollo web, diseño gráfico y consultoría tecnológica.</p>
+    </section>
+
+    
+    <section>
+        <h2>Contacto</h2>
+        <p>Si deseas más información o tienes alguna consulta, no dudes en contactarnos a través de nuestro formulario de contacto.</p>
+    </section>
+
+</body>
+</html>
